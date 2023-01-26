@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Page</title>
+    <link rel="stylesheet" href="./Style/gameStyle.css">
+</head>
+<body>
+    <div class="Welcome">
+
+        <div class="top">
+            <h2 >Welcome:  <span></span></h2>
+        </div>
+
+        <div class="top">
+            <h2>Score: <span></span> </h2>
+        </div>
+        <div class="top">
+            <h2>Time Limit: <span></span> </h2>
+        </div>
+        <div class="top">
+            <h2>Birds Killed: <span></span></h2>
+        </div>
+    </div>
+
+    <div class="start">
+        <img class="welcome_Bird"src="./Images/win.png"/>
+       
+        <h1> Welcome <span> </span> </h1> 
+        <h4>
+            The last played date was: <span></span>
+            <br>
+            The last Score was:  <span></span>
+            <br>
+            In order to win you should get Score higher than 50
+            <br>
+             in a specific time
+        </h4>
+        <input type="button" value="Start Game">
+    </div>
+
+    <div class="lose">
+        <img class="lost_Bird"src="./Images/lost.png"/>
+       
+        <h1>You Lose</h1>
+       
+        <input type="button" value="Try Again" >
+    </div>
+
+    <div class="win">
+        <img class="win_Bird"src="./Images/Happy.png"/>
+       
+        <h1>Congratulations !
+            <br>
+             You Win</h1>
+            
+        <input type="button" value="Play Again" >
+    </div>
+    
+
+
+    
+   <script src="./Scripts/gameScript.js"></script> 
+</body>
+</html>

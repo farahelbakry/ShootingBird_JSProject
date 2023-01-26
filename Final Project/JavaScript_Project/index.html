@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+    <link rel="stylesheet" href="./Style/indexStyle.css">
+   
+    
+</head>
+<body>
+    <div class="Container">
+     <h1>Shooting Bird Game</h1>
+    <img class="icon" src="./Images/BirdIcon.png"/>
+    <div class="Horizontal">
+      <h2> Game Level</h2>
+      <select>
+        <option value="0">Select Level:</option>
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+      </select>
+
+    </div>
+    <form action="game.html">
+    <div class="Horizontal">
+    
+      <h2> Enter Name</h2>
+      <input type="text" name="Name" placeholder="Your name..">
+    </div>
+   <button type="submit"> Submit </button>
+  </form>
+   
+    </div>
+
+    <div class="Points">
+      <h1>Game Bird Shooting Points</h1>
+
+      <div class="Bird_Div">
+        <img src="./Images/bird3.gif" class="Bird" >
+             
+      <h1 class="white">+5 Points</h1>
+
+    </div>
+
+    <div class="Bird_Div">
+        <img src="./Images/bird2.gif" class="Bird">
+             
+     <h1 class="black">+10 Points</h1>
+
+    </div>
+
+    <div class="Bird_Div">
+        <img src="./Images/bird1.gif" class="Bird">
+             
+     <h1 class="blue">-10 Points</h1>
+
+    </div>
+    
+    </div>
+    <script src="./Scripts/indexScript.js"></script>
+</body>
+</html>
